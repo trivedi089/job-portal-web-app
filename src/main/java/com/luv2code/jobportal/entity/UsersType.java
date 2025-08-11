@@ -57,4 +57,5 @@ public class UsersType {
                 ", userTypeName='" + userTypeName + '\'' +
                 '}';
     }
+
 }
