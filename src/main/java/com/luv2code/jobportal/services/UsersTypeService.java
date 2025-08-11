@@ -1,4 +1,4 @@
-package com.luv2code.jobportal.service;
+package com.luv2code.jobportal.services;
 
 import com.luv2code.jobportal.entity.UsersType;
 import com.luv2code.jobportal.repository.UsersTypeRepository;
