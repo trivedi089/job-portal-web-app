@@ -37,6 +37,7 @@ public class WebSecurityConfig {
         this.customAuthenticationSuccessHandler = customAuthenticationSuccessHandler;
     }
 
+    @Bean
     protected SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
 
         http.authenticationProvider(authenticationProvider());
