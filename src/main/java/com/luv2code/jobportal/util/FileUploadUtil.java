@@ -22,7 +22,7 @@ public class FileUploadUtil {
             Path path = uploadPath.resolve(fileName);
             System.out.println("FilePath "+path);
             System.out.println("filename "+fileName);
-            Files.copy(inputStream, path, StandardCopyOption.REPLACE_EXISTING)
+            Files.copy(inputStream, path, StandardCopyOption.REPLACE_EXISTING);
         }catch (IOException ioe){
 
             throw new IOException("Could not save image file: "+fileName, ioe);
